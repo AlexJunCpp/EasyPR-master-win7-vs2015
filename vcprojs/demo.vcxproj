@@ -73,7 +73,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Ksoftware\opencv\build\include;D:\VS_projects\easypr_new\EasyPR-master;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Ksoftware\opencv\build\include;$(SolutionDir);$(IncludePath)</IncludePath>
     <LibraryPath>D:\Ksoftware\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
